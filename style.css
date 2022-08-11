@@ -1,0 +1,76 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+header{
+  display: flex;
+  background-color: #C4FCFF
+  ;
+  justify-content: center;
+  padding: 25px;
+}
+
+h1{
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  text-align: center;
+}
+
+h2{
+  margin: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.library{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.book{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 228, 196);
+  margin: 10px;
+  border: 5px solid #FFEEDA;
+  border-radius: 8px;
+}
+
+.author{
+  text-align: center;
+}
+
+.read{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFEEDA;
+  width: 100%;
+  margin-top: 0px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.pages{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.fa-check-circle{
+  color: green;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 22px;
+  margin-left: 5px;
+}
+
+.fa-times-circle{
+  color: red;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 22px;
+  margin-left: 5px;
+}
