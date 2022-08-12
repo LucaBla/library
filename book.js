@@ -99,10 +99,10 @@ function removeBook(){
   this.div.remove()
 }
 
-const book1 = new Book('Star Wars', 'George Lucas', 345, true)
-const book2 = new Book('Laura: The Adventure', 'Läusel Keil', 35, false)
-const book3 = new Book('Apfel essen leicht gemacht', 'Läusel Keilo', 5601, false)
-addBookToLibrary(book1)
-addBookToLibrary(book2)
-addBookToLibrary(book3)
-displayLibrary()
+//const book1 = new Book('Star Wars', 'George Lucas', 345, true)
+//const book2 = new Book('Laura: The Adventure', 'Läusel Keil', 35, false)
+//const book3 = new Book('Apfel essen leicht gemacht', 'Läusel Keilo', 5601, false)
+//addBookToLibrary(book1)
+//addBookToLibrary(book2)
+//addBookToLibrary(book3)
+//displayLibrary()
