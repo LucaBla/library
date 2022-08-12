@@ -13,6 +13,7 @@ header{
 }
 
 header button{
+  position: relative;
   background-color: transparent;
   border: none;
   color: white;
@@ -35,9 +36,28 @@ h2{
   font-size: 18px;
 }
 
+input{
+  background-color: rgb(255, 228, 196);
+  border: 5px solid #FFEEDA;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+header .fa-plus{
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: #8F8C88;
+  background-color: white;
+  padding: 1px;
+  font-size: 12px;
+  border-radius: 50%;
+}
+
 .library{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  margin-top: 15px;
 }
 
 .book{
@@ -47,6 +67,7 @@ h2{
   margin: 10px;
   border: 5px solid #FFEEDA;
   border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .author{
@@ -118,14 +139,20 @@ h2{
   position: relative;
   background-color: #8F8C88;
   color: white;
-  padding: 20px;
+  padding: 25px 50px;
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .close-btn{
   background-color: transparent;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 10px;
+  right: 10px;
+  border: none;
+  color: white;
+  font-size: 20px;
 }
 
 .field:not(:nth-last-child(2)){
@@ -136,6 +163,18 @@ h2{
 
 .field:nth-last-child(2){
   margin-top: 20px;
+}
+
+.create-book{
+  border-radius: 50px;
+  border: none;
+  background-color: #FFEEDA;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #8F8C88;
 }
 
 .hidden{
